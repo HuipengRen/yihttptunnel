@@ -12,5 +12,11 @@ javac com/yihttptunnel/*.java
 sudo java com.yihttptunnel.Server
 ```
 
+If you prefer a HTTP proxy in Mainland China other than the default one, you can run
+```
+sudo java com.yihttptunnel.Server [proxyhost] [proxyport]
+```
+Note, the HTTP proxy must support HTTPS.
+
 You will have to set up the above again when the camera restarts.
 
