@@ -99,8 +99,7 @@ public class Server {
                                final String targetHost,
                                final int targetPort,
                                final boolean isHttps) {
-        try {
-            final ServerSocket welcomeSocket = new ServerSocket(port);
+        try (final ServerSocket welcomeSocket = new ServerSocket(port)) {
             logger.log(Level.INFO, "Tunnel service is running for"
                                  + "\r\nport: " + port
                                  + "\r\nproxy host: " + proxyHost
