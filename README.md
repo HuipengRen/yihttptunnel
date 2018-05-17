@@ -20,3 +20,10 @@ Note, the HTTP proxy must support HTTPS.
 
 You will have to set up the above again when the camera restarts.
 
+
+--------------------------------------------------------------------
+
+54.84.30.91
+This is my own DNS server (and transparent HTTP proxy), which is working well for my camera. If you want to have a try you can simply specify the dns server with this IP on your wifi router.
+Note, I can not guarantee any reliability since it's just a single instance on Amazon AWS.
+
